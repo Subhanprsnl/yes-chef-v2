@@ -185,7 +185,7 @@ h1, h2, h3, p { margin: 0; }
 }
 .hero__bg {
   position: absolute; inset: -40px 0 0; z-index: -2;
-  background: url("../assets/stadium.jpg") center 40% / cover no-repeat;
+  background: url("assets/stadium.jpg") center 40% / cover no-repeat;
   scale: 1.12; filter: blur(8px);
   transition: scale 2.6s var(--ease-out), filter 1.6s var(--ease-out);
   will-change: transform;
@@ -525,7 +525,7 @@ h1, h2, h3, p { margin: 0; }
   animation: spin 2.4s linear infinite;
 }
 .vinyl::before { content: ""; position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from 0deg, transparent 0 20%, rgba(255,255,255,.1) 25%, transparent 30% 70%, rgba(255,255,255,.1) 75%, transparent 80%); }
-.vinyl span { position: absolute; inset: 34%; border-radius: 50%; background: url("../assets/pepsi.png") center / cover; box-shadow: 0 0 0 6px #fff; }
+.vinyl span { position: absolute; inset: 34%; border-radius: 50%; background: url("assets/pepsi.png") center / cover; box-shadow: 0 0 0 6px #fff; }
 @keyframes spin { to { rotate: 360deg; } }
 .js .vinyl.reveal { transform: scale(.85); }
 .js .vinyl.reveal.is-in { transform: none; }
